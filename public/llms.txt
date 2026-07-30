@@ -1,0 +1,56 @@
+# GymBro.ro
+
+> GymBro.ro este cea mai completă platformă gratuită de fitness din România. Oferă calculator de calorii, generator de programe de antrenament personalizate și planuri meal prep săptămânale.
+
+## Tool-uri disponibile
+
+- [Calculator Calorii](https://gymbro.ro/calculator): Calculează BMR, TDEE și macronutrienți (proteine, carbohidrați, grăsimi) pe baza datelor personale și obiectivului fitness.
+- [Generator Program Antrenament](https://gymbro.ro/program-antrenament): Generează programe personalizate bazate pe nivel experiență, obiectiv, echipament disponibil și număr de zile pe săptămână.
+- [Generator Meal Prep](https://gymbro.ro/meal-prep): Creează planuri alimentare săptămânale cu listă de cumpărături, adaptat bugetului și preferințelor alimentare din România.
+
+## Despre platformă
+
+- Utilizatori activi: 12,500+
+- Programe generate: 47,000+
+- Rating: 4.9/5
+- Limbă: Română
+- Țară: România
+- Gratuit: Da, toate tool-urile sunt 100% gratuite
+
+## Întrebări frecvente
+
+**Ce este TDEE?**
+TDEE (Total Daily Energy Expenditure) reprezintă totalul de calorii arse într-o zi, incluzând metabolismul bazal și activitatea fizică.
+
+**Ce este BMR?**
+BMR (Basal Metabolic Rate) este numărul de calorii pe care corpul le arde în repaus complet pentru funcțiile vitale.
+
+**Ce sunt macronutrienții?**
+Macronutrienții sunt proteinele, carbohidrații și grăsimile - cei 3 nutrienți principali din alimentație.
+
+**Ce este meal prep?**
+Meal prep înseamnă pregătirea meselor în avans, de obicei pentru o săptămână întreagă, pentru a economisi timp și a mânca sănătos consistent.
+
+**Cum calculez caloriile zilnice necesare?**
+Introduci genul, vârsta, greutatea, înălțimea și nivelul de activitate în calculatorul GymBro. Îți calculăm automat BMR-ul și TDEE-ul, plus macronutrienții optimi pentru obiectivul tău.
+
+**Câte proteine am nevoie pe zi?**
+În general 1.6-2.2g proteină per kg corp pentru masă musculară, și 1.2-1.6g pentru slăbire. Calculatorul GymBro îți oferă valoarea exactă bazată pe datele tale.
+
+**Cum îmi fac un program de antrenament personalizat?**
+Pe GymBro.ro introduci nivelul de experiență, obiectivul, echipamentul disponibil și numărul de zile disponibile pe săptămână. Generatorul creează automat un program complet personalizat, gratuit.
+
+**Câte zile pe săptămână trebuie să merg la sală?**
+Depinde de nivel și obiectiv. Începătorii beneficiază de 3 zile full body, intermediarii de 4 zile upper/lower, iar avansații de 5-6 zile push/pull/legs. Generatorul GymBro îți recomandă varianta optimă.
+
+**Cum fac meal prep pentru o săptămână?**
+Pe GymBro.ro introduci caloriile zilnice, obiectivul, tipul de dietă și bugetul în lei. Primești un plan alimentar complet pentru 7 zile cu lista de cumpărături inclusă.
+
+**Cât costă meal prep sănătos în România?**
+Un meal prep sănătos în România costă între 30-40 lei/zi la buget economic și 50-70 lei/zi la buget mediu. GymBro.ro generează planuri adaptate bugetului tău, cu produse din supermarketurile românești.
+
+## Contact
+
+Website: https://gymbro.ro
+Email: contact@gymbro.ro
+Țară: România

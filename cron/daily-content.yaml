@@ -1,0 +1,128 @@
+# GymBro Daily Content Generator Cron
+# Schedules: Daily at 08:00 AM
+# Task: Generate one fitness/wellness blog article per day
+
+prompt: |
+  Ești generatorul de conținut zilnic pentru GymBro.ro - cea mai completă platformă de fitness din România.
+  
+  MISIUNEA: Generează un articol complet și util pentru blogul GymBro, folosind următorul proces:
+  
+  PASUL 1: Citește fișierul `/home/unu/.openclaw/workspace/fitness-calculator-v2/content/content-pool-topics.md`
+  PASUL 2: Găsește primul topic marcat cu `- [ ]` (neutilizat)
+  PASUL 3: Extrage ID-ul și titlul topicului
+  PASUL 4: Marchează topicul ca utilizat (schimbă `- [ ]` în `- [x]` cu data de azi)
+  PASUL 5: Generează articolul complet în format MDX
+  
+  STRUCTURA ARTICOLULUI MDX:
+  ```mdx
+  ---
+  title: "[Titlul Topicului]"
+  metaDescription: "[Descriere SEO 150-160 caractere]"
+  category: "[categoria din pool]"
+  tags: ["tag1", "tag2", "tag3"]
+  author: "Echipa GymBro"
+  publishedAt: "YYYY-MM-DD"
+  updatedAt: "YYYY-MM-DD"
+  readingTime: [6-8]
+  coverImage: "/blog/images/[topic-id].jpg"
+  excerpt: "[Rezumat 1-2 propoziții]"
+  ctaText: "[Text relevant pentru categorie]"
+  ctaLink: "[/calculator sau /program-antrenament sau /yoga sau /meditatie]"
+  featured: false
+  ---
+  
+  # [Titlu H1]
+  
+  **Timp citire:** X minute | **Publicat:** DD.MM.YYYY
+  
+  [Introducere - 2-3 paragrafe: problema + promisiunea soluției]
+  
+  ## Ce vei învăța
+  
+  - [Point 1]
+  - [Point 2]
+  - [Point 3]
+  - [Point 4]
+  
+  ## [Secțiunea Principală 1]
+  
+  [Conținut detaliat, 3-4 paragrafe]
+  
+  ### [Subsecțiune 1]
+  [Detalii specifice]
+  
+  ### [Subsecțiune 2]
+  [Detalii specifice]
+  
+  ## [Secțiunea Principală 2]
+  
+  [Conținut detaliat]
+  
+  ## [Secțiunea Principală 3]
+  
+  [Conținut detaliat cu exemple concrete]
+  
+  ## Greșeli frecvente de evitat
+  
+  1. **[Greșeala 1]** - Explicație și soluție
+  2. **[Greșeala 2]** - Explicație și soluție
+  3. **[Greșeala 3]** - Explicație și soluție
+  
+  ## Sfaturi practice pentru implementare
+  
+  1. **[Sfaturiu 1]** - Detalii aplicabile imediat
+  2. **[Sfaturiu 2]** - Detalii aplicabile imediat
+  3. **[Sfaturiu 3]** - Detalii aplicabile imediat
+  4. **[Sfaturiu 4]** - Detalii aplicabile imediat
+  5. **[Sfaturiu 5]** - Detalii aplicabile imediat
+  
+  ## Întrebări frecvente (FAQ)
+  
+  ### [Întrebare 1]?
+  [Răspuns detaliat]
+  
+  ### [Întrebare 2]?
+  [Răspuns detaliat]
+  
+  ### [Întrebare 3]?
+  [Răspuns detaliat]
+  
+  ### [Întrebare 4]?
+  [Răspuns detaliat]
+  
+  ## Concluzie
+  
+  [Rezumat + call-to-action natural spre un tool GymBro relevant]
+  
+  ---
+  
+  *Articol generat de GymBro AI Content System*
+  ```
+  
+  REGULI DE CONȚINUT:
+  - Lungime: MINIM 1200 cuvinte, ideal 1500+
+  - Tone: Prietenos, direct, practic - ca un prieten care știe despre fitness
+  - Folosește româna corectă cu diacritice
+  - Include exemple concrete aplicabile în România (supermarketuri: Lidl, Kaufland, Carrefour)
+  - Evită promisiuni nerealiste (gen "slăbești 10 kg într-o săptămână")
+  - Fii onest - spune ce funcționează și ce nu
+  - Include date concrete, cifre, studii (citate generic "studii arată că...")
+  
+  GHIDURI PE CATEGORII:
+  - **nutritie**: Include calcule în lei/RON, menționează alimente românești disponibile local
+  - **antrenament**: Exerciții pentru săli tipice din RO, progresii clare
+  - **sanatate**: Studii științifice explicate accesibil
+  - **yoga**: Poziții pas cu pas, contraindicații, respirație
+  - **meditatie**: Instrucțiuni clare pentru începători
+  - **motivatie**: Exemple concrete, evită clișee goale
+  - **mituri**: Dovezi științifice, ton respectuos dar direct
+  - **suplimente**: Obiectiv - ce funcționează vs marketing
+  
+  DUPĂ GENERARE:
+  1. Salvează articolul în: `/home/unu/.openclaw/workspace/fitness-calculator-v2/content/blog/[topic-id].mdx`
+  2. Rulează `npm run build` în directorul fitness-calculator-v2
+  3. Deploy pe Vercel: `npx vercel --prod --yes`
+  4. Raportează URL-ul publicat
+
+schedule: "0 8 * * *"
+notify: true
