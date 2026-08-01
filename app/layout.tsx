@@ -81,6 +81,7 @@ export default function RootLayout({
     <html lang="ro">
       <head>
         <meta name="google-site-verification" content="KAW2BhYs1OE4vBXi2oJZlZD5wV2nS680F1OZfPdwhek" />
+        <meta name="msvalidate.01" content="6344903EC8E96B412B093C98F3AEAF3A" />
         {/* Schema.org Global */}
         <script
           type="application/ld+json"
