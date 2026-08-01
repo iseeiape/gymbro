@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "GymBro.ro - Cea mai completă platformă de fitness din România | Calculator Calorii, Programe, Meal Prep",
-  description: "Transformă-ți corpul cu GymBro.ro. Calculator calorii gratuit, programe de antrenament personalizate, meal prep și tracking progres. Tot ce ai nevoie pentru fitness într-un singur loc.",
+  title: "GymBro.ro - Platforma de Fitness All-in-One din România 🇷🇴 | Calculator Calorii, Programe, Meal Prep",
+  description: "Calculator calorii gratuit, programe de antrenament personalizate și meal prep în lei. Totul gratuit, fără cont. Creat pentru România.",
   keywords: "calculator calorii, program antrenament, meal prep, fitness romania, slabit, masa musculara, nutritie, gym, sala",
   openGraph: {
-    title: "GymBro.ro - Cea mai completă platformă de fitness din România",
-    description: "Calculator calorii, programe personalizate și meal prep. Transformă-ți corpul astăzi! 💪",
+    title: "GymBro.ro - Platforma de Fitness All-in-One din România",
+    description: "Calculator calorii gratuit, programe personalizate și meal prep. Creat pentru România. 💪",
     type: "website",
     url: "https://gymbro.ro",
     images: [
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "GymBro.ro - Cea mai completă platformă de fitness din România",
-    description: "Calculator calorii, programe personalizate și meal prep. Transformă-ți corpul! 💪",
+    title: "GymBro.ro - Platforma de Fitness All-in-One din România",
+    description: "Calculator calorii gratuit, programe personalizate și meal prep. Creat pentru România. 💪",
     images: ["https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&h=630&fit=crop"],
   },
   alternates: {
